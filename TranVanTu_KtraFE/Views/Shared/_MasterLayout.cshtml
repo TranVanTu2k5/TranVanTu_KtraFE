@@ -1,0 +1,85 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="~/Content/script/Full-css.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <div class="topbanner">
+            <div class="topbanner_ban">Free ship đơn từ 45k,giảm nhiều hơn cùng</div>
+            <div class="topbanner_ban">
+                <img style="height: 20px; margin-top: 7px;" srcset="https://salt.tikicdn.com/ts/upload/a7/18/8c/910f3a83b017b7ced73e80c7ed4154b0.png" alt="icon"/>
+            </div>
+
+        </div>
+        <div id="topsearch">
+            <div class="logo">
+                <img src="https://salt.tikicdn.com/ts/upload/0e/07/78/ee828743c9afa9792cf20d75995e134e.png" alt="tiki-logo" height="64" width="96"><br />
+                <span width="96" height="16">Tốt &amp; Nhanh</span>
+            </div>
+            <div class="search-container">
+                <div class="search-container__icon"><i class="fas fa-search"></i></div>
+                <input style="width:890px;height:15px;" type="text" name="search" placeholder="30 ngày đổi trả" /><br />
+                <button class="search-container__search">Tìm kiếm</button>
+                <div class="topsearch__list">
+                    <ul>
+                        <li>điện gia dụng</li>
+                        <li>xe cộ</li>
+                        <li>mẹ &amp; bé</li>
+                        <li>khỏe đẹp</li>
+                        <li>nhà cửa</li>
+                        <li>sách</li>
+                        <li>thể thao</li>
+                        <li>iphone 13</li>
+                        <li>ipad mini 6</li>
+                        <li>iphone 12</li>
+                        <li>oppo</li>
+                        <li>iphone 15</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar">
+                <i style="color: rgb(128, 128, 137)" class="fas fa-home">Trang chủ</i>
+                <i style="color: rgb(128, 128, 137)" class="far fa-smile">Tài khoản</i>
+                <i class="fas fa-shopping-cart"></i>
+                <div class="delivery">
+                    <i style="color: rgb(128, 128, 137)" class="fas fa-map-marker-alt"></i>
+                    <h4 style="color: rgb(128, 128, 137)">Giao đến:&nbsp;</h4>
+                    <a href="~/ShippingAddress/ShippingAddress"<b><u>Q. 1, P. Bến Nghé, Hồ Chí Minh</u></b></a>
+                </div>
+            </div>
+
+        </div>
+        <div id="topmenu">
+            <ul class="topmenu_ban">
+                <li class="camket" style="border: 0px; color: rgb(0, 62, 161)">Cam Kết</li>
+                <li><img src="https://salt.tikicdn.com/ts/upload/96/76/a3/16324a16c76ee4f507d5777608dab831.png" width="18" height="18" srcset="https://salt.tikicdn.com/ts/upload/96/76/a3/16324a16c76ee4f507d5777608dab831.png">100% hàng thật</li>
+                <li><img src="https://salt.tikicdn.com/ts/upload/0b/f2/19/c03ae8f46956eca66845fb9aaadeca1e.png" width="20" height="20" srcset="https://salt.tikicdn.com/ts/upload/0b/f2/19/c03ae8f46956eca66845fb9aaadeca1e.png">Hoàn 200% nếu hàng giả</li>
+                <li><img src="https://salt.tikicdn.com/ts/upload/3a/f4/7d/86ca29927e9b360dcec43dccb85d2061.png" width="20" height="20" srcset="https://salt.tikicdn.com/ts/upload/3a/f4/7d/86ca29927e9b360dcec43dccb85d2061.png">300 ngày đổi trả</li>
+                <li><img src="https://salt.tikicdn.com/ts/upload/87/98/77/fc33e3d472fc4ce4bae8c835784b707a.png" width="20" height="20" srcset="https://salt.tikicdn.com/ts/upload/87/98/77/fc33e3d472fc4ce4bae8c835784b707a.png">Giao nhanh 2h</li>
+                <li><img src="https://salt.tikicdn.com/ts/upload/6a/81/06/0675ef5512c275a594d5ec1d58c37861.png" width="20" height="20" srcset="https://salt.tikicdn.com/ts/upload/6a/81/06/0675ef5512c275a594d5ec1d58c37861.png">Giá siêu rẻ</li>
+                <li><img src="https://salt.tikicdn.com/ts/upload/11/09/ec/456a2a8c308c2de089a34bbfef1c757b.png" width="20" height="20" srcset="https://salt.tikicdn.com/ts/upload/11/09/ec/456a2a8c308c2de089a34bbfef1c757b.png">Freeship mọi đơn</li>
+            </ul>
+        </div>
+    </div>
+    <div id="body">
+        @RenderBody()
+        <div class="sildebar">
+            <ul>
+                <li><b>Khám phá theo danh mục</b></li>
+                <li>Điện thoại Smartphone</li>
+                <li>Máy tính bản</li>
+                <li>Máy đọc sách</li>
+                <li>Điện thoại phổ thông</li>
+                <li style="border-bottom:0px">Điện thoại bàn</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
